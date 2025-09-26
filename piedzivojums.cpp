@@ -120,6 +120,7 @@ int main() {
             } while (choice1 != 1 && choice1 != 2);
              if(choice1==1){
                     cout<<"Tu taču esi neveikls, tevi noķer Valtera mamm un tevi ieslodza cietumā, kur tu nomirsti\n\nspēle beidzās-ending 4";
+                 return 0;
                 }else{
                     cout<<"tu viņai pieskaries ar ziču mietu un viņa izgaist,Barbari tevi aizdzen uz pilsētu\n\n";
                 }
