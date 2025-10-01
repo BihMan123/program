@@ -7,6 +7,11 @@ int main()
 	cout<<"Ievadiet veselu, naturālu skaitli:";
 	cin>>s1;
 	int s2 =2;
+	if(s1==2||s1==1)
+	{
+	    cout<<"PIRMSKAITLIS!";
+	    return 0;
+	}
 	do {
 		if(s1 % s2 == 0)
 		{
