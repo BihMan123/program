@@ -16,7 +16,7 @@ int main()
 	    s1 = s2*s3;
 	   
 	    
-}while(s1>10);
+}while(s1>9);
 	cout<<endl<<"Skaitļa spēks ir:"<<s1;
 	return 0;
 }
