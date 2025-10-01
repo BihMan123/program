@@ -10,13 +10,13 @@ int main()
 	cout<<"Ievadiet veselu, naturālu, divciparu skaitli:";
 	cin>>s1;
 	do{
-	    speks = speks+1;
+
 	    s2 = s1/10;
 	    s3 = s1%10;
 	    s1 = s2*s3;
 	   
 	    
 }while(s1>10);
-	cout<<endl<<"Skaitļa spēks ir:"<<speks;
+	cout<<endl<<"Skaitļa spēks ir:"<<s1;
 	return 0;
 }
