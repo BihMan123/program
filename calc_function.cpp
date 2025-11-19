@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int aritmetiskaOperacija(float a, float b, string c)
+float aritmetiskaOperacija(float a, float b, string c)
 {
 float d = 0;
 if( c == "summa")
