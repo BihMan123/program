@@ -28,7 +28,7 @@ int main()
 cout <<"Ievadiet 2 skaitlus:";
 cin >> a;
 cin >> b;
-cout << "Ievadiet darbibu(summa, atnemsana, reizinasana, dalisnana):";
+cout << "Ievadiet operaciju(summa, atnemsana, reizinasana, dalisnana):";
 cin >> c;
 cout << aritmetiskaOperacija(a, b, c);
 }
